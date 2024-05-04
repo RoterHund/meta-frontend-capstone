@@ -1,0 +1,68 @@
+/* menu.css */
+
+.menu {
+  margin-top: 50px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+.menu-desc {
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #F4CE14;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to new line */
+  justify-content: center;
+}
+
+.card {
+  margin: 10px; /* Reduce margin to move cards closer together */
+  padding: 10px; /* Reduce padding to decrease card height */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Limit card width */
+}
+
+.menu-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-price {
+  color: #F4CE14;
+}
+
+.item-desc {
+  margin-top: 10px;
+}
+
+.delivery {
+  margin-top: 20px;
+}
+
+/* Media query for larger devices */
+@media (min-width: 768px) {
+  .cards {
+    justify-content: space-between; /* Arrange cards in one row */
+  }
+}

@@ -1,0 +1,16 @@
+.nav-item .nav-link {
+  text-decoration: none;
+  }
+
+.nav-link:hover .nav-item:hover{
+    color: #004085;
+    font-weight: bold;
+  }
+
+.nav-item.active .nav-link.active {
+    color: #d63384;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+

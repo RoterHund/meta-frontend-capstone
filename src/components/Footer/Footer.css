@@ -1,0 +1,65 @@
+/* footer.css */
+
+/* Footer styles */
+footer {
+    padding: 10px; /* Adjust padding to make the footer smaller */
+    background-color: whitesmoke;
+}
+
+footer section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: flex-start; /* Align items to the start of the container */
+}
+
+footer img {
+    width: auto;
+    height: auto;
+    transform: scale(0.5); /* Scale down the image by 50% */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.footer-heading {
+    font-size: 18px; /* Adjust size as needed */
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+/* Adjust grid rows */
+footer section div:first-child {
+    grid-row: span 2; /* Make the logo span two grid rows */
+}
+
+/* Adjust h3 elements to move lower */
+footer section h3 {
+    margin-top: 10px; /* Reduce top margin to make h3 elements closer to the content */
+}
