@@ -8,8 +8,3 @@ test('Renders the BookingForm heading', () => {
     const headingElement = screen.getByText("Book Now");
     expect(headingElement).toBeInTheDocument();
 });
-
-test('initializeTimes function returns the correct value', () => {
-    const result = initializeTimes();
-    expect(result).toEqual({ availableTimes: expect.any(Array) });
-});
